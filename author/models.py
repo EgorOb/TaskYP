@@ -32,10 +32,3 @@ def add_event(event_date: datetime, event_name: str, user: str) -> datetime:
 
     DATABASE.append({"user": user, "date": event_date, "event": event_name})
     return event_date
-
-# print(add_event(datetime(2023, 10, 16), "1", user="user"), DATABASE)
-# print(add_event(datetime(2023, 10, 16), "2", user="user"), DATABASE)
-# print(add_event(datetime(2023, 10, 16), "2", user="user1"), DATABASE)
-# print(add_event(datetime(2023, 10, 16), "3", user="user1"), DATABASE)
-# print(add_event(datetime(2023, 10, 16), "3", user="user1"), DATABASE)
-# print(add_event(datetime(2023, 10, 15), "3", user="user1"), DATABASE)
